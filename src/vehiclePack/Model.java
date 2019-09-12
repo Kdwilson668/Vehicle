@@ -3,7 +3,7 @@ package vehiclePack;
 public class Model {
 	String bodyType;
 	String modelName;
-	String trimPackage;
+	String[] trimPackage;
 	public String getBodyType() {
 		return bodyType;
 	}
@@ -16,11 +16,15 @@ public class Model {
 	public void setModelName(String modelName) {
 		this.modelName = modelName;
 	}
-	public String getTrimPackage() {
+	public String[] getTrimPackage() {
 		return trimPackage;
 	}
-	public void setTrimPackage(String trimPackage) {
+	public void setTrimPackage(String[] trimPackage) {
 		this.trimPackage = trimPackage;
+	}
+	public void getModel() {
+		// TODO Auto-generated method stub
+		
 	}
 	
 

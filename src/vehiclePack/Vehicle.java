@@ -56,6 +56,12 @@ abstract class Vehicle
 	}
 	//Vehicle Camry = new Vehicle("Camry", null, 4, 19, 26, 16, 1500, );
 	
+	public Vehicle(int p, int f, int m) {
+		// TODO Auto-generated constructor stub
+	}
+	public Vehicle(int p, int f, int m, int d, int t, int w, int y, int tm, String c) {
+		// TODO Auto-generated constructor stub
+	}
 	public void setVehicle(String honk, String isKey, int tSp, int zoom, int fL)
 	{
 		hornSound = honk;
@@ -142,11 +148,11 @@ class Make{
 	private String contactNum;
 	private Date mintDate;
 	private ImageIcon companyLogo;
-	protected Image getLogo() {
+	protected ImageIcon getLogo() {
 		return null;
 	}
 	
-private Make(String cmp, String loc, String cmpW, String cntN, Date mntD, ImageIcon cmpL) {
+Make(String cmp, String loc, String cmpW, String cntN, Date mntD, ImageIcon cmpL) {
 		cmp = company;
 		loc = location;
 		cmpW = companyWebsite;
